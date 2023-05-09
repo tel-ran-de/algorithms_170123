@@ -1,0 +1,34 @@
+найти максимум из 2 чисел:
+1. пришло 2 числа
+2. если первое число больше второго - верни первое
+3. иначе - верни второе
+
+input a b
+begin
+if a>b return a
+else return b
+end
+
+int getMax(int a, int b) {
+    if (a>b) {
+        return a;
+    } else {
+        return b;
+    }
+}
+
+function getMax(a, b) {
+    if (a>b) {
+        return a;
+    } else {
+        return b;
+    }
+}
+
+func get_max(a,b):
+    if a>b:
+        return a
+    else:
+        return b
+
+
