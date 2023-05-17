@@ -5,19 +5,6 @@
 4. Какие порядки роста асимтотических функций знаете?
 5. Оцените сложность по времени и памяти
 ```java
-void method(int a, int b) {
-        while (a != b) {
-            if (a > b) {
-                a = a - b;
-            } else {
-                b = b - a;
-            }
-        }
-    }
-```
-
-6. Оцените сложность по времени и памяти
-```java
 void method(int n) {
         for (int i = 0; i < n / 2; i++) {
             for (int j = 1; j + n / 2 <= n; j++) {
@@ -28,12 +15,24 @@ void method(int n) {
         }
     }
 ```
-7. Оцените сложность по времени и памяти
+6. Оцените сложность по времени и памяти
 ```java
-void method3(int n) {
+void method2(int n) {
         for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= n; j = j + i) {
                 System.out.println("I am expert!");
+            }
+        }
+    }
+```
+7. Оцените сложность по времени и памяти
+```java
+void method3(int a, int b) { // примечание a > 0 и b > 0
+        while (a != b) {
+            if (a > b) {
+                a = a - b;
+            } else {
+                b = b - a;
             }
         }
     }
