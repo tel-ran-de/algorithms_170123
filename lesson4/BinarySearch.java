@@ -25,5 +25,7 @@ public class BinarySearch {
         }
 
         // T(n) = T(n/2) + O(1) = O(log(n)) * O(1) => O(log(n))
-    }
+
+        // O(n^0) = O(1) => c = 0    log2(1) = 0  =>  O(n^0 * log(n)) => O(log(n))
+     }
 }
